@@ -1,0 +1,81 @@
+{
+  "ru_to_en":{
+    "beginner":{
+      "дима":{
+        "question":"Дима",
+        "answer":"Dima",
+        "information":"Дима (Dima) is the diminutive of the male first name Avudim and Dmitry"
+      },
+      "анна":{
+        "question":"Анна",
+        "answer":"Anna",
+        "information":"Анна (Anna) is a first name"
+      },
+      "один":{
+        "question":"один",
+        "answer":"odin",
+        "information":"один (odin): (en) One"
+      },
+      "два":{
+        "question":"два",
+        "answer":"dva",
+        "information":"два (dva): (en) Two"
+      },
+      "три":{
+        "question":"три",
+        "answer":"tri",
+        "information":"три (tri): (en) Three"
+      },
+      "привет":{
+        "question":"привет",
+        "answer":"privet",
+        "information":"привет (privet): (en) Hello"
+      }
+    },
+    "medium":{
+
+    },
+    "expert":{
+
+    }
+  },
+  "en_to_ru":{
+    "beginner":{
+      "dima":{
+        "question":"Dima",
+        "answer":"Дима",
+        "information":"Дима (Dima) is the diminutive of the male first name Avudim and Dmitry"
+      },
+      "anna":{
+        "question":"Anna",
+        "answer":"Анна",
+        "information":"Анна (Anna) is a first name"
+      },
+      "odin":{
+        "question":"odin",
+        "answer":"один",
+        "information":"один (odin): (en) One"
+      },
+      "dva":{
+        "question":"dva",
+        "answer":"два",
+        "information":"два (dva): (en) Two"
+      },
+      "tri":{
+        "question":"tri",
+        "answer":"три",
+        "information":"три (tri): (en) Three"
+      },
+      "privet":{
+        "question":"privet",
+        "answer":"привет",
+        "information":"привет (privet): (en) Hello"
+      }
+    },
+    "medium":{
+
+    },
+    "expert":{
+    }
+  }
+}

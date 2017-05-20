@@ -1,0 +1,52 @@
+include header
+link(href='static/css/practice.css', rel='stylesheet')
+section#practice
+  div.practice_container.z-depth-2
+    div.container_header.z-depth-1
+      div.practice_level
+        span.beginner Beginner
+      div.practice_progression_bar
+        div.progression_bar_back.z-depth-0
+        div.progression_bar_current
+      div.practice_progression 8/10
+      div.practice_accuracy
+        span.accuracy_high 85%
+    div.container_flip_wrapper
+      div.container_content.front.z-depth-1
+        div.question
+          div.question_sentence.z-depth-1 loading...
+          div.question_check.z-depth-1.waves-effect.waves-light
+            i.material-icons done
+        div.answer_wrapper
+          div.front.z-depth-1
+            div.answer
+              div.input-field
+                textarea.answer_textarea.materialize-textarea
+          div.back.z-depth-1
+            div.answer
+              div.validation
+                span.correct.hidden Correct answer: <span class="correct_answer">loading...</span>
+                span.incorrect.hidden Incorrect answer, the answer is: <span class="correct_answer">loading...</span>
+              div.information.
+                loading...
+              div.next_btn
+                button.btn.waves-effect.waves-light.green next
+      div.container_content.back.z-depth-1
+        div.question
+          div.question_sentence.z-depth-1 Loading...
+          div.question_check.z-depth-1.waves-effect.waves-light
+            i.material-icons done
+        div.answer_wrapper
+          div.front.z-depth-1
+            div.answer
+              div.input-field
+                textarea.answer_textarea.materialize-textarea
+          div.back.z-depth-1
+            div.answer
+              div.validation
+                span.correct.hidden Correct answer: <span class="correct_answer">loading...</span>
+                span.incorrect.hidden Incorrect answer, the answer is: <span class="correct_answer">loading...</span>
+              div.information.
+                loading...
+              div.next_btn
+                button.btn.waves-effect.waves-light.green next
