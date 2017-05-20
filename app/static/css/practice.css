@@ -109,6 +109,7 @@ div.question_check {
   padding-top: 4px;
   cursor: pointer;
   font-weight: 700;
+  z-index: 0;
 }
 
 div.answer_wrapper {
