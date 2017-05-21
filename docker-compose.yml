@@ -1,6 +1,0 @@
-be:
-  build: .
-  volumes:
-    - "./app:/src/app"
-  ports:
-    - "3001:3001"
