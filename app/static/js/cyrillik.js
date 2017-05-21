@@ -17,12 +17,21 @@ userLevel=0;
 answered=false;
 
 
+
 $(document).ready(function(){
   $.getJSON(dataPath , function( data ) {
     questionPool = data;
     generateQuestionQueue();
     updatePracticeHeader();
     initQuestion();
+  });
+  // On press enter
+  $('textarea').keypress(function (e) {
+    if (e.which == '13') {
+      $(".answer_textarea").blur();
+      checkAnswer();
+      updatePracticeHeader();
+    }
   });
 
   // Trigger flipping when clicking on help
@@ -182,7 +191,7 @@ function checkAnswer(){
     answerCpt++;
     expectedAnswer = question.answer;
     answer = containerToPrepare.find(".answer_textarea").val();
-    if(expectedAnswer.toLowerCase() == answer.toLowerCase()){
+    if(expectedAnswer.toLowerCase() == answer.toLowerCase().trim()){
       containerToPrepare.find("span.correct").removeClass("hidden");
       containerToPrepare.find("span.incorrect").addClass("hidden");
       correctAnswerCpt++;
