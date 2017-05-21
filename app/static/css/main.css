@@ -6,10 +6,19 @@ body {
   background: linear-gradient(#9e9e9e  ,#e0e0e0);
 }
 
+section {
+  width: 80%;
+  max-width: 600px;
+  min-width: 400px;
+  margin: auto;
+}
+
 section#header {
     height: 150px;
     text-align: center;
 }
+
+
 
 h1#main_title {
   color: white;
