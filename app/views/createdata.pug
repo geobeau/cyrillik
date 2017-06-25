@@ -1,0 +1,26 @@
+include header
+link(href='static/css/create.css', rel='stylesheet')
+script(src="static/js/create.js")
+
+div.create_container
+  div.input-field.col.s6
+    input#cyrillic(type="text")
+    label Cyrillic word
+  div.input-field.col.s6
+    input#latin(type="text")
+    label Latin word
+  div.input-field.col.s6
+    input#translation(type="text")
+    label Translation
+  div.input-field.col.s6
+    select#level
+      option(value="beginner") beginner
+      option(value="medium") medium
+      option(value="expert") expert
+    label Difficulty
+  center
+    div.btn_add
+      button.btn.waves-effect.waves-light.green(onclick="addItem()") add
+
+div.result_container
+ textarea.answer_textarea.materialize-textarea

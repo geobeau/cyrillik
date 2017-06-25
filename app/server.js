@@ -7,7 +7,11 @@ app.set('views', __dirname + '/views');
 app.use('/static', express.static(__dirname + '/static'));
 
 app.get('/', function (req, res) {
-  res.render('index', { title: 'Hey', message: 'Hello there!'});
+  res.render('index');
+});
+
+app.get('/createData', function (req, res) {
+  res.render('createdata');
 });
 
 

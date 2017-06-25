@@ -46,6 +46,14 @@ div.practice_container {
   background-color: #2196f3;
 }
 
+div.create_container {
+  background-color: #e0e0e0;
+}
+
+div.result_container {
+  background-color: #e0e0e0;
+}
+
 div.progression_bar_back {
   background-color: #e0e0e0;
 }

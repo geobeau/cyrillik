@@ -1,0 +1,21 @@
+div.create_container {
+  width: 100%;
+  max-width: 600px;
+  min-width: 320px;
+  margin: auto;
+  padding: 10px;
+}
+div.result_container {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 600px;
+  min-width: 320px;
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+div.result_container textarea {
+  height: 100%;
+}
