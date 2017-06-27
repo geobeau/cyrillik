@@ -135,6 +135,46 @@
         "question": "школа",
         "answer": "shkola",
         "information": "школа (shkola): (en) school"
+      },
+      "офис": {
+        "question": "офис",
+        "answer": "ofis",
+        "information": "офис (ofis): (en) office"
+      },
+      "комната": {
+        "question": "комната",
+        "answer": "komnata",
+        "information": "комната (komnata): (en) Room"
+      },
+      "Университет": {
+        "question": "Университет",
+        "answer": "Universitet",
+        "information": "Университет (Universitet): (en) university"
+      },
+      "магазин": {
+        "question": "магазин",
+        "answer": "magazin",
+        "information": "магазин (magazin): (en) store"
+      },
+      "театр": {
+        "question": "театр",
+        "answer": "teatr",
+        "information": "театр (teatr): (en) theater"
+      },
+      "библиотека": {
+        "question": "библиотека",
+        "answer": "biblioteka",
+        "information": "библиотека (biblioteka): (en) library"
+      },
+      "сторона": {
+        "question": "сторона",
+        "answer": "storona",
+        "information": "сторона (storona): (en) side"
+      },
+      "Фронт": {
+        "question": "Фронт",
+        "answer": "Front",
+        "information": "Фронт (Front): (en) Front"
       }
     },
     "medium": {
@@ -222,6 +262,21 @@
         "question": "Гостиница",
         "answer": "Gostinitsa",
         "information": "Гостиница (Gostinitsa): (en) hotel"
+      },
+      "больница": {
+        "question": "больница",
+        "answer": "bol'nitsa",
+        "information": "больница (bol'nitsa): (en) hospital"
+      },
+      "Вверх": {
+        "question": "Вверх",
+        "answer": "Vverkh",
+        "information": "Вверх (Vverkh): (en) top"
+      },
+      "дно": {
+        "question": "дно",
+        "answer": "dno",
+        "information": "дно (dno): (en) bottom"
       }
     },
     "expert": {}
@@ -357,6 +412,46 @@
         "question": "shkola",
         "answer": "школа",
         "information": "shkola (школа): (en) school"
+      },
+      "ofis": {
+        "question": "ofis",
+        "answer": "офис",
+        "information": "ofis (офис): (en) office"
+      },
+      "komnata": {
+        "question": "komnata",
+        "answer": "комната",
+        "information": "komnata (комната): (en) Room"
+      },
+      "Universitet": {
+        "question": "Universitet",
+        "answer": "Университет",
+        "information": "Universitet (Университет): (en) university"
+      },
+      "magazin": {
+        "question": "magazin",
+        "answer": "магазин",
+        "information": "magazin (магазин): (en) store"
+      },
+      "teatr": {
+        "question": "teatr",
+        "answer": "театр",
+        "information": "teatr (театр): (en) theater"
+      },
+      "biblioteka": {
+        "question": "biblioteka",
+        "answer": "библиотека",
+        "information": "biblioteka (библиотека): (en) library"
+      },
+      "storona": {
+        "question": "storona",
+        "answer": "сторона",
+        "information": "storona (сторона): (en) side"
+      },
+      "Front": {
+        "question": "Front",
+        "answer": "Фронт",
+        "information": "Front (Фронт): (en) Front"
       }
     },
     "medium": {
@@ -444,6 +539,21 @@
         "question": "Gostinitsa",
         "answer": "Гостиница",
         "information": "Gostinitsa (Гостиница): (en) hotel"
+      },
+      "bol'nitsa": {
+        "question": "bol'nitsa",
+        "answer": "больница",
+        "information": "bol'nitsa (больница): (en) hospital"
+      },
+      "Vverkh": {
+        "question": "Vverkh",
+        "answer": "Вверх",
+        "information": "Vverkh (Вверх): (en) top"
+      },
+      "dno": {
+        "question": "dno",
+        "answer": "дно",
+        "information": "dno (дно): (en) bottom"
       }
     },
     "expert": {}
