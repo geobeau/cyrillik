@@ -1,81 +1,451 @@
 {
-  "ru_to_en":{
-    "beginner":{
-      "дима":{
-        "question":"Дима",
-        "answer":"Dima",
-        "information":"Дима (Dima) is the diminutive of the male first name Avudim and Dmitry"
+  "ru_to_en": {
+    "beginner": {
+      "дима": {
+        "question": "Дима",
+        "answer": "Dima",
+        "information": "Дима (Dima) is the diminutive of the male first name Avudim and Dmitry"
       },
-      "анна":{
-        "question":"Анна",
-        "answer":"Anna",
-        "information":"Анна (Anna) is a first name"
+      "анна": {
+        "question": "Анна",
+        "answer": "Anna",
+        "information": "Анна (Anna) is a first name"
       },
-      "один":{
-        "question":"один",
-        "answer":"odin",
-        "information":"один (odin): (en) One"
+      "один": {
+        "question": "один",
+        "answer": "odin",
+        "information": "один (odin): (en) One"
       },
-      "два":{
-        "question":"два",
-        "answer":"dva",
-        "information":"два (dva): (en) Two"
+      "два": {
+        "question": "два",
+        "answer": "dva",
+        "information": "два (dva): (en) Two"
       },
-      "три":{
-        "question":"три",
-        "answer":"tri",
-        "information":"три (tri): (en) Three"
+      "три": {
+        "question": "три",
+        "answer": "tri",
+        "information": "три (tri): (en) Three"
       },
-      "привет":{
-        "question":"привет",
-        "answer":"privet",
-        "information":"привет (privet): (en) Hello"
+      "до свидания": {
+        "question": "до свидания",
+        "answer": "do svidaniya",
+        "information": "до свидания (do svidaniya): (en) Goodbye"
+      },
+      "привет": {
+        "question": "привет",
+        "answer": "privet",
+        "information": "привет (privet): (en) Hello"
+      },
+      " самолет": {
+        "question": " самолет",
+        "answer": "samolet",
+        "information": " самолет(samolet): (en) plane"
+      },
+      " дом": {
+        "question": " дом",
+        "answer": "dom",
+        "information": " дом(dom): (en) House"
+      },
+      "ванная": {
+        "question": "ванная",
+        "answer": "vannaya",
+        "information": "ванная (vannaya): (en) bathroom"
+      },
+      "собака": {
+        "question": "собака",
+        "answer": "sobaka",
+        "information": "собака (sobaka): (en) Dog"
+      },
+      "Кот": {
+        "question": "Кот",
+        "answer": "kot",
+        "information": "Кот (kot): (en) Cat"
+      },
+      "рыба": {
+        "question": "рыба",
+        "answer": "ryba",
+        "information": "рыба (ryba): (en) Fish"
+      },
+      "птица": {
+        "question": "птица",
+        "answer": "ptitsa",
+        "information": "птица (ptitsa): (en) Bird"
+      },
+      "корова": {
+        "question": "корова",
+        "answer": "korova",
+        "information": "корова (korova): (en) Cow"
+      },
+      "крыло": {
+        "question": "крыло",
+        "answer": "krylo",
+        "information": "крыло (krylo): (en) wing"
+      },
+      "лодка": {
+        "question": "лодка",
+        "answer": "lodka",
+        "information": "лодка (lodka): (en) boat"
+      },
+      "шина": {
+        "question": "шина",
+        "answer": "shina",
+        "information": "шина (shina): (en) tire"
+      },
+      "бензин": {
+        "question": "бензин",
+        "answer": "benzin",
+        "information": "бензин (benzin): (en) Gasoline"
+      },
+      "город": {
+        "question": "город",
+        "answer": "gorod",
+        "information": "город (gorod): (en) City"
+      },
+      "улица": {
+        "question": "улица",
+        "answer": "ulitsa",
+        "information": "улица (ulitsa): (en) street"
+      },
+      "Дорога": {
+        "question": "Дорога",
+        "answer": "Doroga",
+        "information": "Дорога (Doroga): (en) road"
+      },
+      "вокзал": {
+        "question": "вокзал",
+        "answer": "vokzal",
+        "information": "вокзал (vokzal): (en) gare"
+      },
+      "мост": {
+        "question": "мост",
+        "answer": "most",
+        "information": "мост (most): (en) bridge"
+      },
+      "ресторан": {
+        "question": "ресторан",
+        "answer": "restoran",
+        "information": "ресторан (restoran): (en) restaurant"
+      },
+      "ферма": {
+        "question": "ферма",
+        "answer": "ferma",
+        "information": "ферма (ferma): (en) farm"
+      },
+      "школа": {
+        "question": "школа",
+        "answer": "shkola",
+        "information": "школа (shkola): (en) school"
       }
     },
-    "medium":{
-
+    "medium": {
+      "автомобиль": {
+        "question": "автомобиль",
+        "answer": " avtomobil'",
+        "information": "автомобиль (avtomobil'): (en) Car"
+      },
+      "Спальня": {
+        "question": "Спальня",
+        "answer": "Spal'nya",
+        "information": "Спальня (Spal'nya): (en) Bedroom"
+      },
+      "поезд": {
+        "question": "поезд",
+        "answer": "poyezd",
+        "information": "поезд (poyezd): (en) Train"
+      },
+      "свинья": {
+        "question": "свинья",
+        "answer": "svin'ya",
+        "information": "свинья (svin'ya): (en) Pig"
+      },
+      "мышь": {
+        "question": "мышь",
+        "answer": "mysh'",
+        "information": "мышь (mysh'): (en) Mouse"
+      },
+      "лошадь": {
+        "question": "лошадь",
+        "answer": "loshad'",
+        "information": "лошадь (loshad'): (en) horse"
+      },
+      "животное": {
+        "question": "животное",
+        "answer": "zhivotnoye",
+        "information": "животное (zhivotnoye): (en) animal"
+      },
+      "грузовик": {
+        "question": "грузовик",
+        "answer": "gruzovik",
+        "information": "грузовик (gruzovik): (en) truck"
+      },
+      "велосипед": {
+        "question": "велосипед",
+        "answer": "velosiped",
+        "information": "велосипед (velosiped): (en) bicycle"
+      },
+      "автобус": {
+        "question": "автобус",
+        "answer": "avtobus",
+        "information": "автобус (avtobus): (en) bus"
+      },
+      "корабль": {
+        "question": "корабль",
+        "answer": "korabl'",
+        "information": "корабль (korabl'): (en) ship"
+      },
+      "двигатель": {
+        "question": "двигатель",
+        "answer": "dvigatel'",
+        "information": "двигатель (dvigatel'): (en) Engine"
+      },
+      "билет": {
+        "question": "билет",
+        "answer": "bilet",
+        "information": "билет (bilet): (en) Ticket"
+      },
+      "транспорт": {
+        "question": "транспорт",
+        "answer": "transport",
+        "information": "транспорт (transport): (en) Transportation"
+      },
+      "квартира": {
+        "question": "квартира",
+        "answer": "kvartira",
+        "information": "квартира (kvartira): (en) apartment"
+      },
+      "аэропорт": {
+        "question": "аэропорт",
+        "answer": "aeroport",
+        "information": "аэропорт (aeroport): (en) airport"
+      },
+      "Гостиница": {
+        "question": "Гостиница",
+        "answer": "Gostinitsa",
+        "information": "Гостиница (Gostinitsa): (en) hotel"
+      }
     },
-    "expert":{
-
-    }
+    "expert": {}
   },
-  "en_to_ru":{
-    "beginner":{
-      "dima":{
-        "question":"Dima",
-        "answer":"Дима",
-        "information":"Дима (Dima) is the diminutive of the male first name Avudim and Dmitry"
+  "en_to_ru": {
+    "beginner": {
+      "dima": {
+        "question": "Dima",
+        "answer": "Дима",
+        "information": "Дима (Dima) is the diminutive of the male first name Avudim and Dmitry"
       },
-      "anna":{
-        "question":"Anna",
-        "answer":"Анна",
-        "information":"Анна (Anna) is a first name"
+      "anna": {
+        "question": "Anna",
+        "answer": "Анна",
+        "information": "Анна (Anna) is a first name"
       },
-      "odin":{
-        "question":"odin",
-        "answer":"один",
-        "information":"один (odin): (en) One"
+      "odin": {
+        "question": "odin",
+        "answer": "один",
+        "information": "один (odin): (en) One"
       },
-      "dva":{
-        "question":"dva",
-        "answer":"два",
-        "information":"два (dva): (en) Two"
+      "dva": {
+        "question": "dva",
+        "answer": "два",
+        "information": "два (dva): (en) Two"
       },
-      "tri":{
-        "question":"tri",
-        "answer":"три",
-        "information":"три (tri): (en) Three"
+      "tri": {
+        "question": "tri",
+        "answer": "три",
+        "information": "три (tri): (en) Three"
       },
-      "privet":{
-        "question":"privet",
-        "answer":"привет",
-        "information":"привет (privet): (en) Hello"
+      "privet": {
+        "question": "privet",
+        "answer": "привет",
+        "information": "привет (privet): (en) Hello"
+      },
+      "samolet": {
+        "question": "samolet",
+        "answer": " самолет",
+        "information": "samolet( самолет): (en) plane"
+      },
+      "dom": {
+        "question": "dom",
+        "answer": " дом",
+        "information": "dom (дом): (en) House"
+      },
+      "vannaya": {
+        "question": "vannaya",
+        "answer": "ванная",
+        "information": "vannaya (ванная): (en) bathroom"
+      },
+      "sobaka": {
+        "question": "sobaka",
+        "answer": "собака",
+        "information": "sobaka (собака): (en) Dog"
+      },
+      "kot": {
+        "question": "kot",
+        "answer": "Кот",
+        "information": "kot (Кот): (en) Cat"
+      },
+      "ryba": {
+        "question": "ryba",
+        "answer": "рыба",
+        "information": "ryba (рыба): (en) Fish"
+      },
+      "ptitsa": {
+        "question": "ptitsa",
+        "answer": "птица",
+        "information": "ptitsa (птица): (en) Bird"
+      },
+      "korova": {
+        "question": "korova",
+        "answer": "корова",
+        "information": "korova (корова): (en) Cow"
+      },
+      "krylo": {
+        "question": "krylo",
+        "answer": "крыло",
+        "information": "krylo (крыло): (en) wing"
+      },
+      "lodka": {
+        "question": "lodka",
+        "answer": "лодка",
+        "information": "lodka (лодка): (en) boat"
+      },
+      "shina": {
+        "question": "shina",
+        "answer": "шина",
+        "information": "shina (шина): (en) tire"
+      },
+      "benzin": {
+        "question": "benzin",
+        "answer": "бензин",
+        "information": "benzin (бензин): (en) Gasoline"
+      },
+      "gorod": {
+        "question": "gorod",
+        "answer": "город",
+        "information": "gorod (город): (en) City"
+      },
+      "ulitsa": {
+        "question": "ulitsa",
+        "answer": "улица",
+        "information": "ulitsa (улица): (en) street"
+      },
+      "Doroga": {
+        "question": "Doroga",
+        "answer": "Дорога",
+        "information": "Doroga (Дорога): (en) road"
+      },
+      "vokzal": {
+        "question": "vokzal",
+        "answer": "вокзал",
+        "information": "vokzal (вокзал): (en) gare"
+      },
+      "most": {
+        "question": "most",
+        "answer": "мост",
+        "information": "most (мост): (en) bridge"
+      },
+      "restoran": {
+        "question": "restoran",
+        "answer": "ресторан",
+        "information": "restoran (ресторан): (en) restaurant"
+      },
+      "ferma": {
+        "question": "ferma",
+        "answer": "ферма",
+        "information": "ferma (ферма): (en) farm"
+      },
+      "shkola": {
+        "question": "shkola",
+        "answer": "школа",
+        "information": "shkola (школа): (en) school"
       }
     },
-    "medium":{
-
+    "medium": {
+      "avtomobil'": {
+        "question": " avtomobil'",
+        "answer": "автомобиль",
+        "information": " avtomobil' (автомобиль): (en) Car"
+      },
+      "Spal'nya": {
+        "question": "Spal'nya",
+        "answer": "Спальня",
+        "information": "Spal'nya (Спальня): (en) Bedroom"
+      },
+      "poyezd": {
+        "question": "poyezd",
+        "answer": "поезд",
+        "information": "poyezd (поезд): (en) Train"
+      },
+      "svin'ya": {
+        "question": "svin'ya",
+        "answer": "свинья",
+        "information": "svin'ya (свинья): (en) Pig"
+      },
+      "mysh'": {
+        "question": "mysh'",
+        "answer": "мышь",
+        "information": "mysh' (мышь): (en) Mouse"
+      },
+      "loshad'": {
+        "question": "loshad'",
+        "answer": "лошадь",
+        "information": "loshad' (лошадь): (en) horse"
+      },
+      "zhivotnoye": {
+        "question": "zhivotnoye",
+        "answer": "животное",
+        "information": "zhivotnoye (животное): (en) animal"
+      },
+      "gruzovik": {
+        "question": "gruzovik",
+        "answer": "грузовик",
+        "information": "gruzovik (грузовик): (en) truck"
+      },
+      "velosiped": {
+        "question": "velosiped",
+        "answer": "велосипед",
+        "information": "velosiped (велосипед): (en) bicycle"
+      },
+      "avtobus": {
+        "question": "avtobus",
+        "answer": "автобус",
+        "information": "avtobus (автобус): (en) bus"
+      },
+      "korabl'": {
+        "question": "korabl'",
+        "answer": "корабль",
+        "information": "korabl' (корабль): (en) ship"
+      },
+      "dvigatel'": {
+        "question": "dvigatel'",
+        "answer": "двигатель",
+        "information": "dvigatel' (двигатель): (en) Engine"
+      },
+      "bilet": {
+        "question": "bilet",
+        "answer": "билет",
+        "information": "bilet (билет): (en) Ticket"
+      },
+      "transport": {
+        "question": "transport",
+        "answer": "транспорт",
+        "information": "transport (транспорт): (en) Transportation"
+      },
+      "kvartira": {
+        "question": "kvartira",
+        "answer": "квартира",
+        "information": "kvartira (квартира): (en) apartment"
+      },
+      "aeroport": {
+        "question": "aeroport",
+        "answer": "аэропорт",
+        "information": "aeroport (аэропорт): (en) airport"
+      },
+      "Gostinitsa": {
+        "question": "Gostinitsa",
+        "answer": "Гостиница",
+        "information": "Gostinitsa (Гостиница): (en) hotel"
+      }
     },
-    "expert":{
-    }
+    "expert": {}
   }
 }
