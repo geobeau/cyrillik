@@ -175,6 +175,11 @@
         "question": "Фронт",
         "answer": "Front",
         "information": "Фронт (Front): (en) Front"
+      },
+      "назад": {
+        "question": "назад",
+        "answer": "nazad",
+        "information": "назад (nazad): (en) back"
       }
     },
     "medium": {
@@ -277,6 +282,11 @@
         "question": "дно",
         "answer": "dno",
         "information": "дно (dno): (en) bottom"
+      },
+      "снаружи": {
+        "question": "снаружи",
+        "answer": "snaruzhi",
+        "information": "снаружи (snaruzhi): (en) outside"
       }
     },
     "expert": {}
@@ -452,6 +462,11 @@
         "question": "Front",
         "answer": "Фронт",
         "information": "Front (Фронт): (en) Front"
+      },
+      "nazad": {
+        "question": "nazad",
+        "answer": "назад",
+        "information": "nazad (назад): (en) back"
       }
     },
     "medium": {
@@ -554,6 +569,11 @@
         "question": "dno",
         "answer": "дно",
         "information": "dno (дно): (en) bottom"
+      },
+      "snaruzhi": {
+        "question": "snaruzhi",
+        "answer": "снаружи",
+        "information": "snaruzhi (снаружи): (en) outside"
       }
     },
     "expert": {}
