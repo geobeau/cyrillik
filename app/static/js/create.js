@@ -14,6 +14,7 @@ function addItem(cyr,resp, trans){
   var itemRUtoEN = {};
   itemRUtoEN["question"] = cyr
   itemRUtoEN["answer"] = lat
+  itemRUtoEN["translation"] = tra
   itemRUtoEN["information"] = cyr + " ("+lat+"): (en) "+tra
 
   var itemENtoRU = {};
@@ -21,8 +22,15 @@ function addItem(cyr,resp, trans){
   itemENtoRU["answer"] = cyr
   itemENtoRU["information"] = lat + " ("+cyr+"): (en) "+tra
 
+  var itemTRAtoRU = {};
+  itemENtoRU["question"] = lat
+  itemENtoRU["answer"] = cyr
+  itemRUtoEN["translation"] = tra
+  itemENtoRU["information"] = lat + " ("+cyr+"): (en) "+tra
+
   dataCyr["ru_to_en"][level][cyr] = itemRUtoEN
   dataCyr["en_to_ru"][level][lat] = itemENtoRU
+  dataCyr["trad_to_ru"][level][tra] = itemENtoRU
 
   refreshData();
 }
