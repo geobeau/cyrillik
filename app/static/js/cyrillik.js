@@ -1,8 +1,8 @@
 questionQueueSize=20;
 
 beginnerLevel=0;
-mediumLevel=100;
-expertLevel=300;
+mediumLevel=20;
+expertLevel=60;
 
 dataPath = "static/data/russian_english.json";
 
@@ -11,7 +11,15 @@ questionQueue = [];
 
 answerCpt=0;
 correctAnswerCpt=0;
-levelPoint=0;
+
+cookiePoint = Cookies.get('levelPoint')
+
+if(cookiePoint != undefined){
+  levelPoint=cookiePoint;
+} else {
+  levelPoint=0;
+}
+
 userLevel=0;
 
 answered=false;
@@ -19,6 +27,7 @@ answered=false;
 
 
 $(document).ready(function(){
+  updateLevel();
   $.getJSON(dataPath , function( data ) {
     questionPool = data;
     generateQuestionQueue();
@@ -61,28 +70,43 @@ function getCurrentQuestion(){
 function generateQuestionQueue(){
   for(var i=0; i < questionQueueSize; i++){
     var rand = parseInt(Math.random(rand)*100);
-    var randType = rand%2;
+    var randType = rand%3;
+    var randLevel = rand%(userLevel+1);
+    console.log("Question level "+randLevel);
     questionType = questionPool[Object.keys(questionPool)[randType]]
-    switch (userLevel) {
+    switch (randLevel) {
       case 0:
         var poolSize = Object.keys(questionType["beginner"]).length;
+        if(poolSize <= 0){
+          i--;
+          continue;
+        }
         var question = questionType["beginner"][Object.keys(questionType["beginner"])[rand%poolSize]]
         questionQueue.push(question);
 
         break;
       case 1:
         var poolSize = Object.keys(questionType["medium"]).length;
+        if(poolSize <= 0){
+          i--;
+          continue;
+        }
         var question = questionType["medium"][Object.keys(questionType["medium"])[rand%poolSize]]
         questionQueue.push(question);
         break;
       case 2:
       default:
         var poolSize = Object.keys(questionType["expert"]).length;
+        if(poolSize <= 0){
+          i--;
+          continue;
+        }
         var question = questionType["expert"][Object.keys(questionType["expert"])[rand%poolSize]]
         questionQueue.push(question);
         break;
 
     }
+
   }
 }
 
@@ -196,6 +220,7 @@ function checkAnswer(){
       containerToPrepare.find("span.incorrect").addClass("hidden");
       correctAnswerCpt++;
       levelPoint++;
+      Cookies.set('levelPoint', levelPoint);
     } else {
       containerToPrepare.find("span.incorrect").removeClass("hidden");
       containerToPrepare.find("span.correct").addClass("hidden");
