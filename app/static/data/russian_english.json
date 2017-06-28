@@ -1,4 +1,9 @@
 {
+  "trad_to_ru":{
+    "beginner":{},
+    "medium":{},
+    "expert":{}
+  },
   "ru_to_en": {
     "beginner": {
       "дима": {
@@ -180,6 +185,26 @@
         "question": "назад",
         "answer": "nazad",
         "information": "назад (nazad): (en) back"
+      },
+      "Работа": {
+        "question": "Работа",
+        "answer": "Rabota",
+        "information": "Работа (Rabota): (en) Work"
+      },
+      "играть": {
+        "question": "играть",
+        "answer": "igrat'",
+        "information": "играть (igrat'): (en) play"
+      },
+      "Ходить": {
+        "question": "Ходить",
+        "answer": "Khodit'",
+        "information": "Ходить (Khodit'): (en) Walk"
+      },
+      "бег": {
+        "question": "бег",
+        "answer": "beg",
+        "information": "бег (beg): (en) run"
       }
     },
     "medium": {
@@ -287,6 +312,11 @@
         "question": "снаружи",
         "answer": "snaruzhi",
         "information": "снаружи (snaruzhi): (en) outside"
+      },
+      "водить машину": {
+        "question": "водить машину",
+        "answer": "vodit' mashinu",
+        "information": "водить машину (vodit' mashinu): (en) drive"
       }
     },
     "expert": {}
@@ -467,6 +497,26 @@
         "question": "nazad",
         "answer": "назад",
         "information": "nazad (назад): (en) back"
+      },
+      "Rabota": {
+        "question": "Rabota",
+        "answer": "Работа",
+        "information": "Rabota (Работа): (en) Work"
+      },
+      "igrat'": {
+        "question": "igrat'",
+        "answer": "играть",
+        "information": "igrat' (играть): (en) play"
+      },
+      "Khodit'": {
+        "question": "Khodit'",
+        "answer": "Ходить",
+        "information": "Khodit' (Ходить): (en) Walk"
+      },
+      "beg": {
+        "question": "beg",
+        "answer": "бег",
+        "information": "beg (бег): (en) run"
       }
     },
     "medium": {
@@ -574,6 +624,11 @@
         "question": "snaruzhi",
         "answer": "снаружи",
         "information": "snaruzhi (снаружи): (en) outside"
+      },
+      "vodit' mashinu": {
+        "question": "vodit' mashinu",
+        "answer": "водить машину",
+        "information": "vodit' mashinu (водить машину): (en) drive"
       }
     },
     "expert": {}
