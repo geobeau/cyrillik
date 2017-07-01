@@ -1,8 +1,191 @@
 {
-  "trad_to_ru":{
-    "beginner":{},
-    "medium":{},
-    "expert":{}
+  "trad_to_ru": {
+    "beginner": {
+      "it is a cat": {
+        "question": "it is a cat",
+        "answer": "это кот",
+        "transcript": "eto kot",
+        "information": "это кот (eto kot): (en) it is a cat"
+      },
+      "this is Masha": {
+        "question": "this is Masha",
+        "answer": "Это Маша",
+        "transcript": "Eto Masha",
+        "information": "Это Маша (Eto Masha): (en) this is Masha"
+      },
+      "it is a house": {
+        "question": "it is a house",
+        "answer": "это дом",
+        "transcript": "eto dom",
+        "information": "это дом (eto dom): (en) it is a house"
+      },
+      "this is Moscow ?": {
+        "question": "this is Moscow ?",
+        "answer": "Это Москва?",
+        "transcript": "Eto Moskva?",
+        "information": "Это Москва? (Eto Moskva?): (en) this is Moscow ?"
+      },
+      "no, this is not Moscow": {
+        "question": "no, this is not Moscow",
+        "answer": "Нет, это не Москва",
+        "transcript": "Net, eto ne Moskva",
+        "information": "Нет, это не Москва (Net, eto ne Moskva): (en) no, this is not Moscow"
+      },
+      "who is this?": {
+        "question": "who is this?",
+        "answer": "кто это?",
+        "transcript": "kto eto?",
+        "information": "кто это? (kto eto?): (en) who is this?"
+      },
+      "what is that?": {
+        "question": "what is that?",
+        "answer": "кто это?",
+        "transcript": "chto eto?",
+        "information": "кто это? (chto eto?): (en) what is that?"
+      },
+      "Is it a chair? yes, it is a chair": {
+        "question": "Is it a chair? yes, it is a chair",
+        "answer": "Это стул? Да, это стул",
+        "transcript": "Eto stul? Da, eto stul",
+        "information": "Это стул? Да, это стул (Eto stul? Da, eto stul): (en) Is it a chair? yes, it is a chair"
+      },
+      "is it a table? yes, it is a table": {
+        "question": "is it a table? yes, it is a table",
+        "answer": "Это стол? Да, это стол",
+        "transcript": "Eto stol? Da, eto stol",
+        "information": "Это стол? Да, это стол (Eto stol? Da, eto stol): (en) is it a table? yes, it is a table"
+      },
+      "is it a pen? yes, it is a pen": {
+        "question": "is it a pen? yes, it is a pen",
+        "answer": "Это ручка? Да, это ручка",
+        "transcript": "Eto ruchka? Da, eto ruchka",
+        "information": "Это ручка? Да, это ручка (Eto ruchka? Da, eto ruchka): (en) is it a pen? yes, it is a pen"
+      },
+      "is it a truck? no, it is a car": {
+        "question": "is it a truck? no, it is a car",
+        "answer": "Это грузовик? Нет, это автомобиль",
+        "transcript": "Eto gruzovik? Net, eto avtomobil'",
+        "information": "Это грузовик? Нет, это автомобиль (Eto gruzovik? Net, eto avtomobil'): (en) is it a truck? no, it is a car"
+      },
+      "what is it? it is a window": {
+        "question": "what is it? it is a window",
+        "answer": "что это? Это окно",
+        "transcript": "chto eto? Eto okno",
+        "information": "что это? Это окно (chto eto? Eto okno): (en) what is it? it is a window"
+      },
+      "what is your name? and you?": {
+        "question": "what is your name? and you?",
+        "answer": "как тебя зовут? и ты?",
+        "transcript": "kak tebya zovut? i ty?",
+        "information": "как тебя зовут? и ты? (kak tebya zovut? i ty?): (en) what is your name? and you?"
+      }
+    },
+    "medium": {
+      "hi, my name is natasha": {
+        "question": "hi, my name is natasha",
+        "answer": "Привет, меня зовут наташа",
+        "transcript": "Privet, menya zovut natasha",
+        "information": "Привет, меня зовут наташа (Privet, menya zovut natasha): (en) hi, my name is natasha"
+      },
+      "hello, my name is Sergei": {
+        "question": "hello, my name is Sergei",
+        "answer": "Здравствуй, меня зовут Сергей",
+        "transcript": "Zdravstvuy, menya zovut Sergei",
+        "information": "Здравствуй, меня зовут Сергей (Zdravstvuy, menya zovut Sergei): (en) hello, my name is Sergei"
+      }
+    },
+    "expert": {}
+  },
+  "ru_to_trad": {
+    "beginner": {
+      "это кот": {
+        "question": "это кот",
+        "answer": "it is a cat",
+        "transcript": "eto kot",
+        "information": "это кот (eto kot): (en) it is a cat"
+      },
+      "Это Маша": {
+        "question": "Это Маша",
+        "answer": "this is Masha",
+        "transcript": "Eto Masha",
+        "information": "Это Маша (Eto Masha): (en) this is Masha"
+      },
+      "это дом": {
+        "question": "это дом",
+        "answer": "it is a house",
+        "transcript": "eto dom",
+        "information": "это дом (eto dom): (en) it is a house"
+      },
+      "Это Москва?": {
+        "question": "Это Москва?",
+        "answer": "this is Moscow ?",
+        "transcript": "Eto Moskva?",
+        "information": "Это Москва? (Eto Moskva?): (en) this is Moscow ?"
+      },
+      "Нет, это не Москва": {
+        "question": "Нет, это не Москва",
+        "answer": "no, this is not Moscow",
+        "transcript": "Net, eto ne Moskva",
+        "information": "Нет, это не Москва (Net, eto ne Moskva): (en) no, this is not Moscow"
+      },
+      "кто это?": {
+        "question": "кто это?",
+        "answer": "what is that?",
+        "transcript": "chto eto?",
+        "information": "кто это? (chto eto?): (en) what is that?"
+      },
+      "Это стул? Да, это стул": {
+        "question": "Это стул? Да, это стул",
+        "answer": "Is it a chair? yes, it is a chair",
+        "transcript": "Eto stul? Da, eto stul",
+        "information": "Это стул? Да, это стул (Eto stul? Da, eto stul): (en) Is it a chair? yes, it is a chair"
+      },
+      "Это стол? Да, это стол": {
+        "question": "Это стол? Да, это стол",
+        "answer": "is it a table? yes, it is a table",
+        "transcript": "Eto stol? Da, eto stol",
+        "information": "Это стол? Да, это стол (Eto stol? Da, eto stol): (en) is it a table? yes, it is a table"
+      },
+      "Это ручка? Да, это ручка": {
+        "question": "Это ручка? Да, это ручка",
+        "answer": "is it a pen? yes, it is a pen",
+        "transcript": "Eto ruchka? Da, eto ruchka",
+        "information": "Это ручка? Да, это ручка (Eto ruchka? Da, eto ruchka): (en) is it a pen? yes, it is a pen"
+      },
+      "Это грузовик? Нет, это автомобиль": {
+        "question": "Это грузовик? Нет, это автомобиль",
+        "answer": "is it a truck? no, it is a car",
+        "transcript": "Eto gruzovik? Net, eto avtomobil'",
+        "information": "Это грузовик? Нет, это автомобиль (Eto gruzovik? Net, eto avtomobil'): (en) is it a truck? no, it is a car"
+      },
+      "что это? Это окно": {
+        "question": "что это? Это окно",
+        "answer": "what is it? it is a window",
+        "transcript": "chto eto? Eto okno",
+        "information": "что это? Это окно (chto eto? Eto okno): (en) what is it? it is a window"
+      },
+      "как тебя зовут? и ты?": {
+        "question": "как тебя зовут? и ты?",
+        "answer": "what is your name? and you?",
+        "transcript": "kak tebya zovut? i ty?",
+        "information": "как тебя зовут? и ты? (kak tebya zovut? i ty?): (en) what is your name? and you?"
+      }
+    },
+    "medium": {
+      "Привет, меня зовут наташа": {
+        "question": "Привет, меня зовут наташа",
+        "answer": "hi, my name is natasha",
+        "transcript": "Privet, menya zovut natasha",
+        "information": "Привет, меня зовут наташа (Privet, menya zovut natasha): (en) hi, my name is natasha"
+      },
+      "Здравствуй, меня зовут Сергей": {
+        "question": "Здравствуй, меня зовут Сергей",
+        "answer": "hello, my name is Sergei",
+        "transcript": "Zdravstvuy, menya zovut Sergei",
+        "information": "Здравствуй, меня зовут Сергей (Zdravstvuy, menya zovut Sergei): (en) hello, my name is Sergei"
+      }
+    },
+    "expert": {}
   },
   "ru_to_en": {
     "beginner": {
@@ -205,6 +388,78 @@
         "question": "бег",
         "answer": "beg",
         "information": "бег (beg): (en) run"
+      },
+      "это кот": {
+        "question": "это кот",
+        "answer": "eto kot",
+        "translation": "it is a cat",
+        "information": "это кот (eto kot): (en) it is a cat"
+      },
+      "Это Маша": {
+        "question": "Это Маша",
+        "answer": "Eto Masha",
+        "translation": "this is Masha",
+        "information": "Это Маша (Eto Masha): (en) this is Masha"
+      },
+      "это дом": {
+        "question": "это дом",
+        "answer": "eto dom",
+        "translation": "it is a house",
+        "information": "это дом (eto dom): (en) it is a house"
+      },
+      "Это Москва?": {
+        "question": "Это Москва?",
+        "answer": "Eto Moskva?",
+        "translation": "this is Moscow ?",
+        "information": "Это Москва? (Eto Moskva?): (en) this is Moscow ?"
+      },
+      "Нет, это не Москва": {
+        "question": "Нет, это не Москва",
+        "answer": "Net, eto ne Moskva",
+        "translation": "no, this is not Moscow",
+        "information": "Нет, это не Москва (Net, eto ne Moskva): (en) no, this is not Moscow"
+      },
+      "кто это?": {
+        "question": "кто это?",
+        "answer": "chto eto?",
+        "translation": "what is that?",
+        "information": "кто это? (chto eto?): (en) what is that?"
+      },
+      "Это стул? Да, это стул": {
+        "question": "Это стул? Да, это стул",
+        "answer": "Eto stul? Da, eto stul",
+        "translation": "Is it a chair? yes, it is a chair",
+        "information": "Это стул? Да, это стул (Eto stul? Da, eto stul): (en) Is it a chair? yes, it is a chair"
+      },
+      "Это стол? Да, это стол": {
+        "question": "Это стол? Да, это стол",
+        "answer": "Eto stol? Da, eto stol",
+        "translation": "is it a table? yes, it is a table",
+        "information": "Это стол? Да, это стол (Eto stol? Da, eto stol): (en) is it a table? yes, it is a table"
+      },
+      "Это ручка? Да, это ручка": {
+        "question": "Это ручка? Да, это ручка",
+        "answer": "Eto ruchka? Da, eto ruchka",
+        "translation": "is it a pen? yes, it is a pen",
+        "information": "Это ручка? Да, это ручка (Eto ruchka? Da, eto ruchka): (en) is it a pen? yes, it is a pen"
+      },
+      "Это грузовик? Нет, это автомобиль": {
+        "question": "Это грузовик? Нет, это автомобиль",
+        "answer": "Eto gruzovik? Net, eto avtomobil'",
+        "translation": "is it a truck? no, it is a car",
+        "information": "Это грузовик? Нет, это автомобиль (Eto gruzovik? Net, eto avtomobil'): (en) is it a truck? no, it is a car"
+      },
+      "что это? Это окно": {
+        "question": "что это? Это окно",
+        "answer": "chto eto? Eto okno",
+        "translation": "what is it? it is a window",
+        "information": "что это? Это окно (chto eto? Eto okno): (en) what is it? it is a window"
+      },
+      "как тебя зовут? и ты?": {
+        "question": "как тебя зовут? и ты?",
+        "answer": "kak tebya zovut? i ty?",
+        "translation": "what is your name? and you?",
+        "information": "как тебя зовут? и ты? (kak tebya zovut? i ty?): (en) what is your name? and you?"
       }
     },
     "medium": {
@@ -317,6 +572,18 @@
         "question": "водить машину",
         "answer": "vodit' mashinu",
         "information": "водить машину (vodit' mashinu): (en) drive"
+      },
+      "Привет, меня зовут наташа": {
+        "question": "Привет, меня зовут наташа",
+        "answer": "Privet, menya zovut natasha",
+        "translation": "hi, my name is natasha",
+        "information": "Привет, меня зовут наташа (Privet, menya zovut natasha): (en) hi, my name is natasha"
+      },
+      "Здравствуй, меня зовут Сергей": {
+        "question": "Здравствуй, меня зовут Сергей",
+        "answer": "Zdravstvuyte, menya zovut Sergei",
+        "translation": "hello, my name is Sergey",
+        "information": "Здравствуй, меня зовут Сергей (Zdravstvuyte, menya zovut Sergei): (en) hello, my name is Sergey"
       }
     },
     "expert": {}
@@ -517,6 +784,71 @@
         "question": "beg",
         "answer": "бег",
         "information": "beg (бег): (en) run"
+      },
+      "eto kot": {
+        "question": "eto kot",
+        "answer": "это кот",
+        "information": "eto kot (это кот): (en) it is a cat"
+      },
+      "Eto Masha": {
+        "question": "Eto Masha",
+        "answer": "Это Маша",
+        "information": "Eto Masha (Это Маша): (en) this is Masha"
+      },
+      "eto dom": {
+        "question": "eto dom",
+        "answer": "это дом",
+        "information": "eto dom (это дом): (en) it is a house"
+      },
+      "Eto Moskva?": {
+        "question": "Eto Moskva?",
+        "answer": "Это Москва?",
+        "information": "Eto Moskva? (Это Москва?): (en) this is Moscow ?"
+      },
+      "Net, eto ne Moskva": {
+        "question": "Net, eto ne Moskva",
+        "answer": "Нет, это не Москва",
+        "information": "Net, eto ne Moskva (Нет, это не Москва): (en) no, this is not Moscow"
+      },
+      "kto eto?": {
+        "question": "kto eto?",
+        "answer": "кто это?",
+        "information": "kto eto? (кто это?): (en) who is this?"
+      },
+      "chto eto?": {
+        "question": "chto eto?",
+        "answer": "кто это?",
+        "information": "chto eto? (кто это?): (en) what is that?"
+      },
+      "Eto stul? Da, eto stul": {
+        "question": "Eto stul? Da, eto stul",
+        "answer": "Это стул? Да, это стул",
+        "information": "Eto stul? Da, eto stul (Это стул? Да, это стул): (en) Is it a chair? yes, it is a chair"
+      },
+      "Eto stol? Da, eto stol": {
+        "question": "Eto stol? Da, eto stol",
+        "answer": "Это стол? Да, это стол",
+        "information": "Eto stol? Da, eto stol (Это стол? Да, это стол): (en) is it a table? yes, it is a table"
+      },
+      "Eto ruchka? Da, eto ruchka": {
+        "question": "Eto ruchka? Da, eto ruchka",
+        "answer": "Это ручка? Да, это ручка",
+        "information": "Eto ruchka? Da, eto ruchka (Это ручка? Да, это ручка): (en) is it a pen? yes, it is a pen"
+      },
+      "Eto gruzovik? Net, eto avtomobil'": {
+        "question": "Eto gruzovik? Net, eto avtomobil'",
+        "answer": "Это грузовик? Нет, это автомобиль",
+        "information": "Eto gruzovik? Net, eto avtomobil' (Это грузовик? Нет, это автомобиль): (en) is it a truck? no, it is a car"
+      },
+      "chto eto? Eto okno": {
+        "question": "chto eto? Eto okno",
+        "answer": "что это? Это окно",
+        "information": "chto eto? Eto okno (что это? Это окно): (en) what is it? it is a window"
+      },
+      "kak tebya zovut? i ty?": {
+        "question": "kak tebya zovut? i ty?",
+        "answer": "как тебя зовут? и ты?",
+        "information": "kak tebya zovut? i ty? (как тебя зовут? и ты?): (en) what is your name? and you?"
       }
     },
     "medium": {
@@ -629,6 +961,16 @@
         "question": "vodit' mashinu",
         "answer": "водить машину",
         "information": "vodit' mashinu (водить машину): (en) drive"
+      },
+      "Privet, menya zovut natasha": {
+        "question": "Privet, menya zovut natasha",
+        "answer": "Привет, меня зовут наташа",
+        "information": "Privet, menya zovut natasha (Привет, меня зовут наташа): (en) hi, my name is natasha"
+      },
+      "Zdravstvuyte, menya zovut Sergei": {
+        "question": "Zdravstvuyte, menya zovut Sergei",
+        "answer": "Здравствуй, меня зовут Сергей",
+        "information": "Zdravstvuyte, menya zovut Sergei (Здравствуй, меня зовут Сергей): (en) hello, zdravstvuite, my name is Sergey"
       }
     },
     "expert": {}
