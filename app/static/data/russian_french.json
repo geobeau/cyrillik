@@ -1,0 +1,978 @@
+{
+  "trad_to_ru": {
+    "beginner": {
+      "c'est un chat": {
+        "question": "c'est un chat",
+        "answer": "это кот",
+        "transcript": "eto kot",
+        "information": "это кот (eto kot): (fr) c'est un chat"
+      },
+      "C'est Masha": {
+        "question": "C'est Masha",
+        "answer": "Это Маша",
+        "transcript": "Eto Masha",
+        "information": "Это Маша (Eto Masha): (fr) C'est Masha"
+      },
+      "C'est une maison": {
+        "question": "C'est une maison",
+        "answer": "это дом",
+        "transcript": "eto dom",
+        "information": "это дом (eto dom): (fr) C'est une maison"
+      },
+      "C'est Moscou ?": {
+        "question": "C'est Moscou ?",
+        "answer": "Это Москва?",
+        "transcript": "Eto Moskva?",
+        "information": "Это Москва? (Eto Moskva?): (fr) C'est Moscou ?"
+      },
+      "Non, ce n'est pas Moscou": {
+        "question": "Non, ce n'est pas Moscou",
+        "answer": "Нет, это не Москва",
+        "transcript": "Net, eto ne Moskva",
+        "information": "Нет, это не Москва (Net, eto ne Moskva): (fr) Non, ce n'est pas Moscou"
+      },
+      "Qui est-ce ?": {
+        "question": "Qui est-ce ?",
+        "answer": "кто это?",
+        "transcript": "kto eto ?",
+        "information": "кто это? (kto eto ?): (fr) Qui est-ce ?"
+      },
+      "Qu'est-ce que c'est ?": {
+        "question": "Qu'est-ce que c'est ?",
+        "answer": "кто это?",
+        "transcript": "chto eto ?",
+        "information": "кто это? (chto eto ?): (fr) Qu'est-ce que c'est ?"
+      },
+      "Est-ce une chaise? Oui, c'est une chaise": {
+        "question": "Est-ce une chaise? Oui, c'est une chaise",
+        "answer": "Это стул? Да, это стул",
+        "transcript": "Eto stul? Da, eto stul",
+        "information": "Это стул? Да, это стул (Eto stul? Da, eto stul): (fr) Est-ce une chaise? Oui, c'est une chaise"
+      },
+      "Est-ce a table? Oui, c'est a table": {
+        "question": "Est-ce a table? Oui, c'est a table",
+        "answer": "Это стол? Да, это стол",
+        "transcript": "Eto stol? Da, eto stol",
+        "information": "Это стол? Да, это стол (Eto stol? Da, eto stol): (fr) Est-ce a table? Oui, c'est a table"
+      },
+      "Est-ce un stylo ? Oui, c'est un stylo": {
+        "question": "Est-ce un stylo ? Oui, c'est un stylo",
+        "answer": "Это ручка? Да, это ручка",
+        "transcript": "Eto ruchka? Da, eto ruchka",
+        "information": "Это ручка? Да, это ручка (Eto ruchka? Da, eto ruchka): (fr) Est-ce un stylo ? Oui, c'est un stylo"
+      },
+      "Est-ce un camion ? Non, c'est une voiture": {
+        "question": "Est-ce un camion ? Non, c'est une voiture",
+        "answer": "Это грузовик? Нет, это автомобиль",
+        "transcript": "Eto gruzovik? Net, eto avtomobil'",
+        "information": "Это грузовик? Нет, это автомобиль (Eto gruzovik? Net, eto avtomobil'): (fr) Est-ce un camion ? Non, c'est une voiture"
+      },
+      "Qu'est-ce que c'est ? C'est une fenêtre": {
+        "question": "Qu'est-ce que c'est ? C'est une fenêtre",
+        "answer": "что это? Это окно",
+        "transcript": "chto eto ? Eto okno",
+        "information": "что это? Это окно (chto eto ? Eto okno): (fr) Qu'est-ce que c'est ? C'est une fenêtre"
+      },
+      "Quel est ton nom ?et toi ?": {
+        "question": "Quel est ton nom ?et toi ?",
+        "answer": "как тебя зовут? и ты?",
+        "transcript": "kak tebya zovut? i ty?",
+        "information": "как тебя зовут? и ты? (kak tebya zovut? i ty?): (fr) Quel est ton nom ?et toi ?"
+      }
+    },
+    "medium": {
+      "Salut, mon nom est Natasha": {
+        "question": "Salut, mon nom est Natasha",
+        "answer": "Привет, меня зовут наташа",
+        "transcript": "Privet, menya zovut natasha",
+        "information": "Привет, меня зовут наташа (Privet, menya zovut natasha): (fr) Salut, mon nom est Natasha"
+      },
+      "Bonjour, mon nom est Sergei": {
+        "question": "Bonjour, mon nom est Sergei",
+        "answer": "Здравствуй, меня зовут Сергей",
+        "transcript": "Zdravstvuy, menya zovut Sergei",
+        "information": "Здравствуй, меня зовут Сергей (Zdravstvuy, menya zovut Sergei): (fr) Bonjour, mon nom est Sergei"
+      }
+    },
+    "expert": {}
+  },
+  "ru_to_trad": {
+    "beginner": {
+      "это кот": {
+        "question": "это кот",
+        "answer": "c'est un chat",
+        "transcript": "eto kot",
+        "information": "это кот (eto kot): (fr) c'est un chat"
+      },
+      "Это Маша": {
+        "question": "Это Маша",
+        "answer": "C'est Masha",
+        "transcript": "Eto Masha",
+        "information": "Это Маша (Eto Masha): (fr) C'est Masha"
+      },
+      "это дом": {
+        "question": "это дом",
+        "answer": "C'est une maison",
+        "transcript": "eto dom",
+        "information": "это дом (eto dom): (fr) C'est une maison"
+      },
+      "Это Москва?": {
+        "question": "Это Москва?",
+        "answer": "C'est Moscou ?",
+        "transcript": "Eto Moskva?",
+        "information": "Это Москва? (Eto Moskva?): (fr) C'est Moscou ?"
+      },
+      "Нет, это не Москва": {
+        "question": "Нет, это не Москва",
+        "answer": "Non, ce n'est pas Moscou",
+        "transcript": "Net, eto ne Moskva",
+        "information": "Нет, это не Москва (Net, eto ne Moskva): (fr) Non, ce n'est pas Moscou"
+      },
+      "кто это?": {
+        "question": "кто это?",
+        "answer": "Qu'est-ce que c'est ?",
+        "transcript": "chto eto ?",
+        "information": "кто это? (chto eto ?): (fr) Qu'est-ce que c'est ?"
+      },
+      "Это стул? Да, это стул": {
+        "question": "Это стул? Да, это стул",
+        "answer": "Est-ce une chaise? Oui, c'est une chaise",
+        "transcript": "Eto stul? Da, eto stul",
+        "information": "Это стул? Да, это стул (Eto stul? Da, eto stul): (fr) Est-ce une chaise? Oui, c'est une chaise"
+      },
+      "Это стол? Да, это стол": {
+        "question": "Это стол? Да, это стол",
+        "answer": "Est-ce a table? Oui, c'est a table",
+        "transcript": "Eto stol? Da, eto stol",
+        "information": "Это стол? Да, это стол (Eto stol? Da, eto stol): (fr) Est-ce a table? Oui, c'est a table"
+      },
+      "Это ручка? Да, это ручка": {
+        "question": "Это ручка? Да, это ручка",
+        "answer": "Est-ce un stylo ? Oui, c'est un stylo",
+        "transcript": "Eto ruchka? Da, eto ruchka",
+        "information": "Это ручка? Да, это ручка (Eto ruchka? Da, eto ruchka): (fr) Est-ce un stylo ? Oui, c'est un stylo"
+      },
+      "Это грузовик? Нет, это автомобиль": {
+        "question": "Это грузовик? Нет, это автомобиль",
+        "answer": "Est-ce un camion ? Non, c'est une voiture",
+        "transcript": "Eto gruzovik? Net, eto avtomobil'",
+        "information": "Это грузовик? Нет, это автомобиль (Eto gruzovik? Net, eto avtomobil'): (fr) Est-ce un camion ? Non, c'est une voiture"
+      },
+      "что это? Это окно": {
+        "question": "что это? Это окно",
+        "answer": "Qu'est-ce que c'est ? C'est une fenêtre",
+        "transcript": "chto eto ? Eto okno",
+        "information": "что это? Это окно (chto eto ? Eto okno): (fr) Qu'est-ce que c'est ? C'est une fenêtre"
+      },
+      "как тебя зовут? и ты?": {
+        "question": "как тебя зовут? и ты?",
+        "answer": "Quel est ton nom ?et toi ?",
+        "transcript": "kak tebya zovut? i ty?",
+        "information": "как тебя зовут? и ты? (kak tebya zovut? i ty?): (fr) Quel est ton nom ?et toi ?"
+      }
+    },
+    "medium": {
+      "Привет, меня зовут наташа": {
+        "question": "Привет, меня зовут наташа",
+        "answer": "Salut, mon nom est Natasha",
+        "transcript": "Privet, menya zovut natasha",
+        "information": "Привет, меня зовут наташа (Privet, menya zovut natasha): (fr) Salut, mon nom est Natasha"
+      },
+      "Здравствуй, меня зовут Сергей": {
+        "question": "Здравствуй, меня зовут Сергей",
+        "answer": "Bonjour, mon nom est Sergei",
+        "transcript": "Zdravstvuy, menya zovut Sergei",
+        "information": "Здравствуй, меня зовут Сергей (Zdravstvuy, menya zovut Sergei): (fr) Bonjour, mon nom est Sergei"
+      }
+    },
+    "expert": {}
+  },
+  "ru_to_en": {
+    "beginner": {
+      "дима": {
+        "question": "Дима",
+        "answer": "Dima",
+        "information": "Дима (Dima) is the diminutive of the male first name Avudim and Dmitry"
+      },
+      "анна": {
+        "question": "Анна",
+        "answer": "Anna",
+        "information": "Анна (Anna) is a first name"
+      },
+      "один": {
+        "question": "один",
+        "answer": "odin",
+        "information": "один (odin): (fr) Un"
+      },
+      "два": {
+        "question": "два",
+        "answer": "dva",
+        "information": "два (dva): (fr) Deux"
+      },
+      "три": {
+        "question": "три",
+        "answer": "tri",
+        "information": "три (tri): (fr) Trois"
+      },
+      "до свидания": {
+        "question": "до свидания",
+        "answer": "do svidaniya",
+        "information": "до свидания (do svidaniya): (fr) Au revoir"
+      },
+      "привет": {
+        "question": "привет",
+        "answer": "privet",
+        "information": "привет (privet): (fr) Salut"
+      },
+      " самолет": {
+        "question": " самолет",
+        "answer": "samolet",
+        "information": " самолет(samolet): (fr) Avion"
+      },
+      " дом": {
+        "question": " дом",
+        "answer": "dom",
+        "information": " дом(dom): (fr) Maison"
+      },
+      "ванная": {
+        "question": "ванная",
+        "answer": "vannaya",
+        "information": "ванная (vannaya): (fr) Salle de bain"
+      },
+      "собака": {
+        "question": "собака",
+        "answer": "sobaka",
+        "information": "собака (sobaka): (fr) Chien"
+      },
+      "Кот": {
+        "question": "Кот",
+        "answer": "kot",
+        "information": "Кот (kot): (fr) Chat"
+      },
+      "рыба": {
+        "question": "рыба",
+        "answer": "ryba",
+        "information": "рыба (ryba): (fr) Poisson"
+      },
+      "птица": {
+        "question": "птица",
+        "answer": "ptitsa",
+        "information": "птица (ptitsa): (fr) Oiseau"
+      },
+      "корова": {
+        "question": "корова",
+        "answer": "korova",
+        "information": "корова (korova): (fr) Vache"
+      },
+      "крыло": {
+        "question": "крыло",
+        "answer": "krylo",
+        "information": "крыло (krylo): (fr) Aile"
+      },
+      "лодка": {
+        "question": "лодка",
+        "answer": "lodka",
+        "information": "лодка (lodka): (fr) Bateau"
+      },
+      "шина": {
+        "question": "шина",
+        "answer": "shina",
+        "information": "шина (shina): (fr) Pneu"
+      },
+      "бензин": {
+        "question": "бензин",
+        "answer": "benzin",
+        "information": "бензин (benzin): (fr) Essence"
+      },
+      "город": {
+        "question": "город",
+        "answer": "gorod",
+        "information": "город (gorod): (fr) Ville"
+      },
+      "улица": {
+        "question": "улица",
+        "answer": "ulitsa",
+        "information": "улица (ulitsa): (fr) Rue"
+      },
+      "Дорога": {
+        "question": "Дорога",
+        "answer": "Doroga",
+        "information": "Дорога (Doroga): (fr) Route"
+      },
+      "вокзал": {
+        "question": "вокзал",
+        "answer": "vokzal",
+        "information": "вокзал (vokzal): (fr) Gare"
+      },
+      "мост": {
+        "question": "мост",
+        "answer": "most",
+        "information": "мост (most): (fr) Pont"
+      },
+      "ресторан": {
+        "question": "ресторан",
+        "answer": "restoran",
+        "information": "ресторан (restoran): (fr) Restaurant"
+      },
+      "ферма": {
+        "question": "ферма",
+        "answer": "ferma",
+        "information": "ферма (ferma): (fr) Ferme"
+      },
+      "школа": {
+        "question": "школа",
+        "answer": "shkola",
+        "information": "школа (shkola): (fr) École"
+      },
+      "офис": {
+        "question": "офис",
+        "answer": "ofis",
+        "information": "офис (ofis): (fr) Bureau"
+      },
+      "комната": {
+        "question": "комната",
+        "answer": "komnata",
+        "information": "комната (komnata): (fr) Pièce"
+      },
+      "Университет": {
+        "question": "Университет",
+        "answer": "Universitet",
+        "information": "Университет (Universitet): (fr) Université"
+      },
+      "магазин": {
+        "question": "магазин",
+        "answer": "magazin",
+        "information": "магазин (magazin): (fr) Magasin"
+      },
+      "театр": {
+        "question": "театр",
+        "answer": "teatr",
+        "information": "театр (teatr): (fr) Théatre"
+      },
+      "библиотека": {
+        "question": "библиотека",
+        "answer": "biblioteka",
+        "information": "библиотека (biblioteka): (fr) Bibliothèque"
+      },
+      "сторона": {
+        "question": "сторона",
+        "answer": "storona",
+        "information": "сторона (storona): (fr) Côté"
+      },
+      "Фронт": {
+        "question": "Фронт",
+        "answer": "Front",
+        "information": "Фронт (Front): (fr) Avant"
+      },
+      "назад": {
+        "question": "назад",
+        "answer": "nazad",
+        "information": "назад (nazad): (fr) Arrière"
+      },
+      "Работа": {
+        "question": "Работа",
+        "answer": "Rabota",
+        "information": "Работа (Rabota): (fr) Travail"
+      },
+      "играть": {
+        "question": "играть",
+        "answer": "igrat'",
+        "information": "играть (igrat'): (fr) Jouer"
+      },
+      "Ходить": {
+        "question": "Ходить",
+        "answer": "Khodit'",
+        "information": "Ходить (Khodit'): (fr) Marcher"
+      },
+      "бег": {
+        "question": "бег",
+        "answer": "beg",
+        "information": "бег (beg): (fr) Courrir"
+      },
+      "это кот": {
+        "question": "это кот",
+        "answer": "eto kot",
+        "translation": "c'est un chat",
+        "information": "это кот (eto kot): (fr) c'est un chat"
+      },
+      "Это Маша": {
+        "question": "Это Маша",
+        "answer": "Eto Masha",
+        "translation": "C'est Masha",
+        "information": "Это Маша (Eto Masha): (fr) C'est Masha"
+      },
+      "это дом": {
+        "question": "это дом",
+        "answer": "eto dom",
+        "translation": "C'est une maison",
+        "information": "это дом (eto dom): (fr) C'est une maison"
+      },
+      "Это Москва?": {
+        "question": "Это Москва?",
+        "answer": "Eto Moskva?",
+        "translation": "C'est Moscou ?",
+        "information": "Это Москва? (Eto Moskva?): (fr) C'est Moscou ?"
+      },
+      "Нет, это не Москва": {
+        "question": "Нет, это не Москва",
+        "answer": "Net, eto ne Moskva",
+        "translation": "Non, ce n'est pas Moscou",
+        "information": "Нет, это не Москва (Net, eto ne Moskva): (fr) Non, ce n'est pas Moscou"
+      },
+      "кто это?": {
+        "question": "кто это?",
+        "answer": "chto eto ?",
+        "translation": "Qu'est-ce que c'est ?",
+        "information": "кто это? (chto eto ?): (fr) Qu'est-ce que c'est ?"
+      },
+      "Это стул? Да, это стул": {
+        "question": "Это стул? Да, это стул",
+        "answer": "Eto stul? Da, eto stul",
+        "translation": "Est-ce une chaise? Oui, c'est une chaise",
+        "information": "Это стул? Да, это стул (Eto stul? Da, eto stul): (fr) Est-ce une chaise? Oui, c'est une chaise"
+      },
+      "Это стол? Да, это стол": {
+        "question": "Это стол? Да, это стол",
+        "answer": "Eto stol? Da, eto stol",
+        "translation": "Est-ce a table? Oui, c'est a table",
+        "information": "Это стол? Да, это стол (Eto stol? Da, eto stol): (fr) Est-ce a table? Oui, c'est a table"
+      },
+      "Это ручка? Да, это ручка": {
+        "question": "Это ручка? Да, это ручка",
+        "answer": "Eto ruchka? Da, eto ruchka",
+        "translation": "Est-ce un stylo ? Oui, c'est un stylo",
+        "information": "Это ручка? Да, это ручка (Eto ruchka? Da, eto ruchka): (fr) Est-ce un stylo ? Oui, c'est un stylo"
+      },
+      "Это грузовик? Нет, это автомобиль": {
+        "question": "Это грузовик? Нет, это автомобиль",
+        "answer": "Eto gruzovik? Net, eto avtomobil'",
+        "translation": "Est-ce un camion ? Non, c'est une voiture",
+        "information": "Это грузовик? Нет, это автомобиль (Eto gruzovik? Net, eto avtomobil'): (fr) Est-ce un camion ? Non, c'est une voiture"
+      },
+      "что это? Это окно": {
+        "question": "что это? Это окно",
+        "answer": "chto eto ? Eto okno",
+        "translation": "Qu'est-ce que c'est ? C'est une fenêtre",
+        "information": "что это? Это окно (chto eto ? Eto okno): (fr) Qu'est-ce que c'est ? C'est une fenêtre"
+      },
+      "как тебя зовут? и ты?": {
+        "question": "как тебя зовут? и ты?",
+        "answer": "kak tebya zovut? i ty?",
+        "translation": "Quel est ton nom ?et toi ?",
+        "information": "как тебя зовут? и ты? (kak tebya zovut? i ty?): (fr) Quel est ton nom ?et toi ?"
+      }
+    },
+    "medium": {
+      "автомобиль": {
+        "question": "автомобиль",
+        "answer": " avtomobil'",
+        "information": "автомобиль (avtomobil'): (fr) Car"
+      },
+      "Спальня": {
+        "question": "Спальня",
+        "answer": "Spal'nya",
+        "information": "Спальня (Spal'nya): (fr) Bedroom"
+      },
+      "поезд": {
+        "question": "поезд",
+        "answer": "poyezd",
+        "information": "поезд (poyezd): (fr) Train"
+      },
+      "свинья": {
+        "question": "свинья",
+        "answer": "svin'ya",
+        "information": "свинья (svin'ya): (fr) Pig"
+      },
+      "мышь": {
+        "question": "мышь",
+        "answer": "mysh'",
+        "information": "мышь (mysh'): (fr) Mouse"
+      },
+      "лошадь": {
+        "question": "лошадь",
+        "answer": "loshad'",
+        "information": "лошадь (loshad'): (fr) horse"
+      },
+      "животное": {
+        "question": "животное",
+        "answer": "zhivotnoye",
+        "information": "животное (zhivotnoye): (fr) animal"
+      },
+      "грузовик": {
+        "question": "грузовик",
+        "answer": "gruzovik",
+        "information": "грузовик (gruzovik): (fr) truck"
+      },
+      "велосипед": {
+        "question": "велосипед",
+        "answer": "velosiped",
+        "information": "велосипед (velosiped): (fr) bicycle"
+      },
+      "автобус": {
+        "question": "автобус",
+        "answer": "avtobus",
+        "information": "автобус (avtobus): (fr) bus"
+      },
+      "корабль": {
+        "question": "корабль",
+        "answer": "korabl'",
+        "information": "корабль (korabl'): (fr) ship"
+      },
+      "двигатель": {
+        "question": "двигатель",
+        "answer": "dvigatel'",
+        "information": "двигатель (dvigatel'): (fr) Engine"
+      },
+      "билет": {
+        "question": "билет",
+        "answer": "bilet",
+        "information": "билет (bilet): (fr) Ticket"
+      },
+      "транспорт": {
+        "question": "транспорт",
+        "answer": "transport",
+        "information": "транспорт (transport): (fr) Transportation"
+      },
+      "квартира": {
+        "question": "квартира",
+        "answer": "kvartira",
+        "information": "квартира (kvartira): (fr) apartment"
+      },
+      "аэропорт": {
+        "question": "аэропорт",
+        "answer": "aeroport",
+        "information": "аэропорт (aeroport): (fr) airport"
+      },
+      "Гостиница": {
+        "question": "Гостиница",
+        "answer": "Gostinitsa",
+        "information": "Гостиница (Gostinitsa): (fr) hotel"
+      },
+      "больница": {
+        "question": "больница",
+        "answer": "bol'nitsa",
+        "information": "больница (bol'nitsa): (fr) hospital"
+      },
+      "Вверх": {
+        "question": "Вверх",
+        "answer": "Vverkh",
+        "information": "Вверх (Vverkh): (fr) top"
+      },
+      "дно": {
+        "question": "дно",
+        "answer": "dno",
+        "information": "дно (dno): (fr) bottom"
+      },
+      "снаружи": {
+        "question": "снаружи",
+        "answer": "snaruzhi",
+        "information": "снаружи (snaruzhi): (fr) outCôté"
+      },
+      "водить машину": {
+        "question": "водить машину",
+        "answer": "vodit' mashinu",
+        "information": "водить машину (vodit' mashinu): (fr) drive"
+      },
+      "Привет, меня зовут наташа": {
+        "question": "Привет, меня зовут наташа",
+        "answer": "Privet, menya zovut natasha",
+        "translation": "Salut, mon nom est Natasha",
+        "information": "Привет, меня зовут наташа (Privet, menya zovut natasha): (fr) Salut, mon nom est Natasha"
+      },
+      "Здравствуй, меня зовут Сергей": {
+        "question": "Здравствуй, меня зовут Сергей",
+        "answer": "Zdravstvuyte, menya zovut Sergei",
+        "translation": "Bonjour, mon nom est Sergei",
+        "information": "Здравствуй, меня зовут Сергей (Zdravstvuyte, menya zovut Sergei): (fr) Bonjour, mon nom est Sergei"
+      }
+    },
+    "expert": {}
+  },
+  "en_to_ru": {
+    "beginner": {
+      "dima": {
+        "question": "Dima",
+        "answer": "Дима",
+        "information": "Дима (Dima) is the diminutive of the male first name Avudim and Dmitry"
+      },
+      "anna": {
+        "question": "Anna",
+        "answer": "Анна",
+        "information": "Анна (Anna) is a first name"
+      },
+      "odin": {
+        "question": "odin",
+        "answer": "один",
+        "information": "один (odin): (fr) Un"
+      },
+      "dva": {
+        "question": "dva",
+        "answer": "два",
+        "information": "два (dva): (fr) Deux"
+      },
+      "tri": {
+        "question": "tri",
+        "answer": "три",
+        "information": "три (tri): (fr) Trois"
+      },
+      "privet": {
+        "question": "privet",
+        "answer": "привет",
+        "information": "привет (privet): (fr) "
+      },
+      "samolet": {
+        "question": "samolet",
+        "answer": " самолет",
+        "information": "samolet( самолет): (fr) Avion"
+      },
+      "dom": {
+        "question": "dom",
+        "answer": " дом",
+        "information": "dom (дом): (fr) Maison"
+      },
+      "vannaya": {
+        "question": "vannaya",
+        "answer": "ванная",
+        "information": "vannaya (ванная): (fr) Salle de bain"
+      },
+      "sobaka": {
+        "question": "sobaka",
+        "answer": "собака",
+        "information": "sobaka (собака): (fr) Chien"
+      },
+      "kot": {
+        "question": "kot",
+        "answer": "Кот",
+        "information": "kot (Кот): (fr) Chat"
+      },
+      "ryba": {
+        "question": "ryba",
+        "answer": "рыба",
+        "information": "ryba (рыба): (fr) Poisson"
+      },
+      "ptitsa": {
+        "question": "ptitsa",
+        "answer": "птица",
+        "information": "ptitsa (птица): (fr) Oiseau"
+      },
+      "korova": {
+        "question": "korova",
+        "answer": "корова",
+        "information": "korova (корова): (fr) Vache"
+      },
+      "krylo": {
+        "question": "krylo",
+        "answer": "крыло",
+        "information": "krylo (крыло): (fr) Aile"
+      },
+      "lodka": {
+        "question": "lodka",
+        "answer": "лодка",
+        "information": "lodka (лодка): (fr) Bateau"
+      },
+      "shina": {
+        "question": "shina",
+        "answer": "шина",
+        "information": "shina (шина): (fr) Pneu"
+      },
+      "benzin": {
+        "question": "benzin",
+        "answer": "бензин",
+        "information": "benzin (бензин): (fr) Essence"
+      },
+      "gorod": {
+        "question": "gorod",
+        "answer": "город",
+        "information": "gorod (город): (fr) Ville"
+      },
+      "ulitsa": {
+        "question": "ulitsa",
+        "answer": "улица",
+        "information": "ulitsa (улица): (fr) Rue"
+      },
+      "Doroga": {
+        "question": "Doroga",
+        "answer": "Дорога",
+        "information": "Doroga (Дорога): (fr) Route"
+      },
+      "vokzal": {
+        "question": "vokzal",
+        "answer": "вокзал",
+        "information": "vokzal (вокзал): (fr) Gare"
+      },
+      "most": {
+        "question": "most",
+        "answer": "мост",
+        "information": "most (мост): (fr) Pont"
+      },
+      "restoran": {
+        "question": "restoran",
+        "answer": "ресторан",
+        "information": "restoran (ресторан): (fr) Restaurant"
+      },
+      "ferma": {
+        "question": "ferma",
+        "answer": "ферма",
+        "information": "ferma (ферма): (fr) Ferme"
+      },
+      "shkola": {
+        "question": "shkola",
+        "answer": "школа",
+        "information": "shkola (школа): (fr) École"
+      },
+      "ofis": {
+        "question": "ofis",
+        "answer": "офис",
+        "information": "ofis (офис): (fr) Bureau"
+      },
+      "komnata": {
+        "question": "komnata",
+        "answer": "комната",
+        "information": "komnata (комната): (fr) Pièce"
+      },
+      "Universitet": {
+        "question": "Universitet",
+        "answer": "Университет",
+        "information": "Universitet (Университет): (fr) Université"
+      },
+      "magazin": {
+        "question": "magazin",
+        "answer": "магазин",
+        "information": "magazin (магазин): (fr) Magasin"
+      },
+      "teatr": {
+        "question": "teatr",
+        "answer": "театр",
+        "information": "teatr (театр): (fr) Théatre"
+      },
+      "biblioteka": {
+        "question": "biblioteka",
+        "answer": "библиотека",
+        "information": "biblioteka (библиотека): (fr) Bibliothèque"
+      },
+      "storona": {
+        "question": "storona",
+        "answer": "сторона",
+        "information": "storona (сторона): (fr) Côté"
+      },
+      "Front": {
+        "question": "Front",
+        "answer": "Фронт",
+        "information": "Front (Фронт): (fr) Avant"
+      },
+      "nazad": {
+        "question": "nazad",
+        "answer": "назад",
+        "information": "nazad (назад): (fr) Arrière"
+      },
+      "Rabota": {
+        "question": "Rabota",
+        "answer": "Работа",
+        "information": "Rabota (Работа): (fr) Travail"
+      },
+      "igrat'": {
+        "question": "igrat'",
+        "answer": "играть",
+        "information": "igrat' (играть): (fr) Jouer"
+      },
+      "Khodit'": {
+        "question": "Khodit'",
+        "answer": "Ходить",
+        "information": "Khodit' (Ходить): (fr) Marcher"
+      },
+      "beg": {
+        "question": "beg",
+        "answer": "бег",
+        "information": "beg (бег): (fr) Courrir"
+      },
+      "eto kot": {
+        "question": "eto kot",
+        "answer": "это кот",
+        "information": "eto kot (это кот): (fr) c'est un chat"
+      },
+      "Eto Masha": {
+        "question": "Eto Masha",
+        "answer": "Это Маша",
+        "information": "Eto Masha (Это Маша): (fr) C'est Masha"
+      },
+      "eto dom": {
+        "question": "eto dom",
+        "answer": "это дом",
+        "information": "eto dom (это дом): (fr) C'est une maison"
+      },
+      "Eto Moskva?": {
+        "question": "Eto Moskva?",
+        "answer": "Это Москва?",
+        "information": "Eto Moskva? (Это Москва?): (fr) C'est Moscou ?"
+      },
+      "Net, eto ne Moskva": {
+        "question": "Net, eto ne Moskva",
+        "answer": "Нет, это не Москва",
+        "information": "Net, eto ne Moskva (Нет, это не Москва): (fr) Non, ce n'est pas Moscou"
+      },
+      "kto eto ?": {
+        "question": "kto eto ?",
+        "answer": "кто это?",
+        "information": "kto eto ? (кто это?): (fr) Qui est-ce ?"
+      },
+      "chto eto ?": {
+        "question": "chto eto ?",
+        "answer": "кто это?",
+        "information": "chto eto ? (кто это?): (fr) Qu'est-ce que c'est ?"
+      },
+      "Eto stul? Da, eto stul": {
+        "question": "Eto stul? Da, eto stul",
+        "answer": "Это стул? Да, это стул",
+        "information": "Eto stul? Da, eto stul (Это стул? Да, это стул): (fr) Est-ce une chaise? Oui, c'est une chaise"
+      },
+      "Eto stol? Da, eto stol": {
+        "question": "Eto stol? Da, eto stol",
+        "answer": "Это стол? Да, это стол",
+        "information": "Eto stol? Da, eto stol (Это стол? Да, это стол): (fr) Est-ce a table? Oui, c'est a table"
+      },
+      "Eto ruchka? Da, eto ruchka": {
+        "question": "Eto ruchka? Da, eto ruchka",
+        "answer": "Это ручка? Да, это ручка",
+        "information": "Eto ruchka? Da, eto ruchka (Это ручка? Да, это ручка): (fr) Est-ce un stylo ? Oui, c'est un stylo"
+      },
+      "Eto gruzovik? Net, eto avtomobil'": {
+        "question": "Eto gruzovik? Net, eto avtomobil'",
+        "answer": "Это грузовик? Нет, это автомобиль",
+        "information": "Eto gruzovik? Net, eto avtomobil' (Это грузовик? Нет, это автомобиль): (fr) Est-ce un camion ? Non, c'est une voiture"
+      },
+      "chto eto ? Eto okno": {
+        "question": "chto eto ? Eto okno",
+        "answer": "что это? Это окно",
+        "information": "chto eto ? Eto okno (что это? Это окно): (fr) Qu'est-ce que c'est ? C'est une fenêtre"
+      },
+      "kak tebya zovut? i ty?": {
+        "question": "kak tebya zovut? i ty?",
+        "answer": "как тебя зовут? и ты?",
+        "information": "kak tebya zovut? i ty? (как тебя зовут? и ты?): (fr) Quel est ton nom ?et toi ?"
+      }
+    },
+    "medium": {
+      "avtomobil'": {
+        "question": " avtomobil'",
+        "answer": "автомобиль",
+        "information": " avtomobil' (автомобиль): (fr) Car"
+      },
+      "Spal'nya": {
+        "question": "Spal'nya",
+        "answer": "Спальня",
+        "information": "Spal'nya (Спальня): (fr) Bedroom"
+      },
+      "poyezd": {
+        "question": "poyezd",
+        "answer": "поезд",
+        "information": "poyezd (поезд): (fr) Train"
+      },
+      "svin'ya": {
+        "question": "svin'ya",
+        "answer": "свинья",
+        "information": "svin'ya (свинья): (fr) Pig"
+      },
+      "mysh'": {
+        "question": "mysh'",
+        "answer": "мышь",
+        "information": "mysh' (мышь): (fr) Mouse"
+      },
+      "loshad'": {
+        "question": "loshad'",
+        "answer": "лошадь",
+        "information": "loshad' (лошадь): (fr) horse"
+      },
+      "zhivotnoye": {
+        "question": "zhivotnoye",
+        "answer": "животное",
+        "information": "zhivotnoye (животное): (fr) animal"
+      },
+      "gruzovik": {
+        "question": "gruzovik",
+        "answer": "грузовик",
+        "information": "gruzovik (грузовик): (fr) truck"
+      },
+      "velosiped": {
+        "question": "velosiped",
+        "answer": "велосипед",
+        "information": "velosiped (велосипед): (fr) bicycle"
+      },
+      "avtobus": {
+        "question": "avtobus",
+        "answer": "автобус",
+        "information": "avtobus (автобус): (fr) bus"
+      },
+      "korabl'": {
+        "question": "korabl'",
+        "answer": "корабль",
+        "information": "korabl' (корабль): (fr) ship"
+      },
+      "dvigatel'": {
+        "question": "dvigatel'",
+        "answer": "двигатель",
+        "information": "dvigatel' (двигатель): (fr) Engine"
+      },
+      "bilet": {
+        "question": "bilet",
+        "answer": "билет",
+        "information": "bilet (билет): (fr) Ticket"
+      },
+      "transport": {
+        "question": "transport",
+        "answer": "транспорт",
+        "information": "transport (транспорт): (fr) Transportation"
+      },
+      "kvartira": {
+        "question": "kvartira",
+        "answer": "квартира",
+        "information": "kvartira (квартира): (fr) apartment"
+      },
+      "aeroport": {
+        "question": "aeroport",
+        "answer": "аэропорт",
+        "information": "aeroport (аэропорт): (fr) airport"
+      },
+      "Gostinitsa": {
+        "question": "Gostinitsa",
+        "answer": "Гостиница",
+        "information": "Gostinitsa (Гостиница): (fr) hotel"
+      },
+      "bol'nitsa": {
+        "question": "bol'nitsa",
+        "answer": "больница",
+        "information": "bol'nitsa (больница): (fr) hospital"
+      },
+      "Vverkh": {
+        "question": "Vverkh",
+        "answer": "Вверх",
+        "information": "Vverkh (Вверх): (fr) top"
+      },
+      "dno": {
+        "question": "dno",
+        "answer": "дно",
+        "information": "dno (дно): (fr) bottom"
+      },
+      "snaruzhi": {
+        "question": "snaruzhi",
+        "answer": "снаружи",
+        "information": "snaruzhi (снаружи): (fr) outCôté"
+      },
+      "vodit' mashinu": {
+        "question": "vodit' mashinu",
+        "answer": "водить машину",
+        "information": "vodit' mashinu (водить машину): (fr) drive"
+      },
+      "Privet, menya zovut natasha": {
+        "question": "Privet, menya zovut natasha",
+        "answer": "Привет, меня зовут наташа",
+        "information": "Privet, menya zovut natasha (Привет, меня зовут наташа): (fr) Salut, mon nom est Natasha"
+      },
+      "Zdravstvuyte, menya zovut Sergei": {
+        "question": "Zdravstvuyte, menya zovut Sergei",
+        "answer": "Здравствуй, меня зовут Сергей",
+        "information": "Zdravstvuyte, menya zovut Sergei (Здравствуй, меня зовут Сергей): (fr) Bonjour, mon nom est sergei"
+      }
+    },
+    "expert": {}
+  }
+}
