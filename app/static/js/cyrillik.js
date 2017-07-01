@@ -1,8 +1,10 @@
-questionQueueSize=20;
+questionQueueSize=15;
 
 beginnerLevel=0;
 mediumLevel=20;
 expertLevel=60;
+
+levelCap=100;
 
 dataPath = "static/data/russian_english.json";
 
@@ -70,43 +72,37 @@ function getCurrentQuestion(){
 function generateQuestionQueue(){
   for(var i=0; i < questionQueueSize; i++){
     var rand = parseInt(Math.random(rand)*100);
-    var randType = rand%3;
-    var randLevel = rand%(userLevel+1);
-    console.log("Question level "+randLevel);
+    var randType = rand%4;
+    var randLevel = rand%(levelPoint+1);
     questionType = questionPool[Object.keys(questionPool)[randType]]
-    switch (randLevel) {
-      case 0:
-        var poolSize = Object.keys(questionType["beginner"]).length;
-        if(poolSize <= 0){
-          i--;
-          continue;
-        }
-        var question = questionType["beginner"][Object.keys(questionType["beginner"])[rand%poolSize]]
-        questionQueue.push(question);
 
-        break;
-      case 1:
-        var poolSize = Object.keys(questionType["medium"]).length;
-        if(poolSize <= 0){
-          i--;
-          continue;
-        }
-        var question = questionType["medium"][Object.keys(questionType["medium"])[rand%poolSize]]
-        questionQueue.push(question);
-        break;
-      case 2:
-      default:
-        var poolSize = Object.keys(questionType["expert"]).length;
-        if(poolSize <= 0){
-          i--;
-          continue;
-        }
-        var question = questionType["expert"][Object.keys(questionType["expert"])[rand%poolSize]]
-        questionQueue.push(question);
-        break;
+    console.log(Object.keys(questionPool)[randType]);
 
+    if(randLevel <= (mediumLevel-10)){
+      var poolSize = Object.keys(questionType["beginner"]).length;
+      if(poolSize <= 0){
+        i--;
+        continue;
+      }
+      var question = questionType["beginner"][Object.keys(questionType["beginner"])[rand%poolSize]]
+      questionQueue.push(question);
+    } else if(randLevel <= (expertLevel-16)){
+      var poolSize = Object.keys(questionType["medium"]).length;
+      if(poolSize <= 0){
+        i--;
+        continue;
+      }
+      var question = questionType["medium"][Object.keys(questionType["medium"])[rand%poolSize]]
+      questionQueue.push(question);
+    } else {
+      var poolSize = Object.keys(questionType["expert"]).length;
+      if(poolSize <= 0){
+        i--;
+        continue;
+      }
+      var question = questionType["expert"][Object.keys(questionType["expert"])[rand%poolSize]]
+      questionQueue.push(question);
     }
-
   }
 }
 
@@ -219,7 +215,11 @@ function checkAnswer(){
       containerToPrepare.find("span.correct").removeClass("hidden");
       containerToPrepare.find("span.incorrect").addClass("hidden");
       correctAnswerCpt++;
-      levelPoint++;
+
+      if(levelCap > levelPoint){
+        levelPoint++;
+      }
+
       Cookies.set('levelPoint', levelPoint);
     } else {
       containerToPrepare.find("span.incorrect").removeClass("hidden");

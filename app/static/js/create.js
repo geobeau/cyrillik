@@ -23,14 +23,21 @@ function addItem(cyr,resp, trans){
   itemENtoRU["information"] = lat + " ("+cyr+"): (en) "+tra
 
   var itemTRAtoRU = {};
-  itemENtoRU["question"] = lat
-  itemENtoRU["answer"] = cyr
-  itemRUtoEN["translation"] = tra
-  itemENtoRU["information"] = lat + " ("+cyr+"): (en) "+tra
+  itemTRAtoRU["question"] = tra
+  itemTRAtoRU["answer"] = cyr
+  itemTRAtoRU["transcript"] = lat
+  itemTRAtoRU["information"] = cyr + " ("+lat+"): (en) "+tra
+
+  var itemRUtoTRA = {};
+  itemRUtoTRA["question"] = cyr
+  itemRUtoTRA["answer"] = tra
+  itemRUtoTRA["transcript"] = lat
+  itemRUtoTRA["information"] = cyr + " ("+lat+"): (en) "+tra
 
   dataCyr["ru_to_en"][level][cyr] = itemRUtoEN
   dataCyr["en_to_ru"][level][lat] = itemENtoRU
-  dataCyr["trad_to_ru"][level][tra] = itemENtoRU
+  dataCyr["trad_to_ru"][level][tra] = itemTRAtoRU
+  dataCyr["ru_to_trad"][level][cyr] = itemRUtoTRA
 
   refreshData();
 }
