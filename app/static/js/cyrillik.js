@@ -6,7 +6,7 @@ expertLevel=60;
 
 levelCap=100;
 
-dataPath = "static/data/russian_english.json";
+dataPath = "static/data/russian_french.json";
 
 questionPool = {};
 questionQueue = [];
@@ -85,6 +85,7 @@ function generateQuestionQueue(){
         continue;
       }
       var question = questionType["beginner"][Object.keys(questionType["beginner"])[rand%poolSize]]
+      question["type"]=Object.keys(questionPool)[randType];
       questionQueue.push(question);
     } else if(randLevel <= (expertLevel-16)){
       var poolSize = Object.keys(questionType["medium"]).length;
@@ -93,6 +94,7 @@ function generateQuestionQueue(){
         continue;
       }
       var question = questionType["medium"][Object.keys(questionType["medium"])[rand%poolSize]]
+      question["type"]=Object.keys(questionPool)[randType];
       questionQueue.push(question);
     } else {
       var poolSize = Object.keys(questionType["expert"]).length;
@@ -101,6 +103,7 @@ function generateQuestionQueue(){
         continue;
       }
       var question = questionType["expert"][Object.keys(questionType["expert"])[rand%poolSize]]
+      question["type"]=Object.keys(questionPool)[randType];
       questionQueue.push(question);
     }
   }
@@ -136,7 +139,12 @@ function initQuestion(){
 }
 
 function setQuestion(containerToSet, question){
-  containerToSet.find(".question_sentence").html(question.question);
+  if(question.type == "ru_to_trad" || question.type == "trad_to_ru"){
+    var question_sentence = "Translate: " + question.question;
+  } else {
+    var question_sentence = "transcript: " + question.question;
+  }
+  containerToSet.find(".question_sentence").html(question_sentence);
   containerToSet.find(".information").html(question.information);
   containerToSet.find(".correct > .correct_answer").html(question.answer);
   containerToSet.find(".incorrect > .correct_answer").html(question.answer);
